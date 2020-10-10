@@ -1,0 +1,84 @@
+header{
+    text-align: right;
+    /* width: 35px; */
+    /* height: 5px; */
+    /* background-color: black; */
+    margin: 5px;
+    background-color:chartreuse;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.menu_item{
+    margin: 8px;
+    font-size:xx-large;
+}
+
+h3{
+    text-align: center;
+    text-decoration-color: darkorange;
+    color:gold;
+    text-decoration: underline;
+}
+
+main{
+    background-color:darkgray;
+    margin-left: 5px;
+    margin-right: 8px;
+    margin-top: 5px;
+    font-size: x-large;
+    text-align: justify;
+
+}
+footer{
+    text-align: end;
+    background-color: chartreuse;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: x-large;
+    /* margin-top: 2px; */
+}
+a:link{
+    color: blue;
+}
+/*visited link*/
+a:visited{
+    color: green;
+}
+/*mouse over link*/
+a:hover{
+    color:white;
+}
+/*selected link*/
+a:active{
+    color:chartreuse;
+}
+img {
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 8px;
+  }
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+@media only screen and (max-width: 700px){
+.responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+    }
+  }
+  
+@media only screen and (max-width: 500px){
+.responsive {
+    width: 100%;
+    }
+  }
+video {
+    position:unset;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
